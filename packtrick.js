@@ -6,7 +6,7 @@ fetch('pokemon-packs.json')
     Object.entries(data).forEach(([sectionTitle, sets]) => {
       // Create collapsible details element
       const details = document.createElement('details');
-      details.open = true; // Set to false if you want all collapsed by default
+      // details.open = true; // Set to false if you want all collapsed by default
 
       // Create summary (clickable heading)
       const summary = document.createElement('summary');
