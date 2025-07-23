@@ -1,10 +1,16 @@
+html {
+    background-color: black;
+    color: white;
+    font-family: Calibri, sans-serif;
+}
+
 details summary {
   cursor: pointer;
   padding: 0.5em 0;
 }
 
 table {
-  width: 100%;
+  /* width: 100%; */
   border-collapse: collapse;
   margin-bottom: 1em;
 }
